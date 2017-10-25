@@ -134,6 +134,11 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.4.0</version>
+			</plugin>
 		</plugins>
 
 	</build>
@@ -199,7 +204,7 @@
 					</reportSet>
 				</reportSets>
 			</plugin>
-		</plugins>
+			</plugins>
 	</reporting>
 
 	<dependencies>
